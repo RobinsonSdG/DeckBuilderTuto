@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://d0hn2ink8s67h"]
+
+[ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="1_5g66x"]
+[ext_resource type="Script" path="res://characters/warrior/cards/warrior_axe_attack.gd.gd" id="1_pjw43"]
+
+[resource]
+script = ExtResource("1_pjw43")
+id = "warrior_axe_attack"
+type = 0
+target = 1
+cost = 1
+icon = ExtResource("1_5g66x")
+tooltip_text = ""
